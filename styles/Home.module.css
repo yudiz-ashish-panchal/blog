@@ -1,15 +1,35 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
+.container{
+  padding: 0 2rem;
+}
+.navbar ul{
+  margin-top: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  list-style: none;
+}
+.navbar ul li{
+  margin: .5rem;
+}
+.divCenter{
+  letter-spacing: .1rem;
+}
+.blogs p {
+  letter-spacing: .1rem;
 
+}
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: center;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -77,7 +97,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .center::before {
