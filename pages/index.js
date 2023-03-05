@@ -26,21 +26,6 @@ export default function Home() {
           <div className={styles.description}>
             <p>A Blog For Hunting Coder by Hunting code</p>
           </div>
-          <div className={styles.blogs}>
-            <h2>Popular Blog</h2>
-            <div className={styles.blogItem}>
-              <h3>How to learn Javascript in 2023?</h3>
-              <p>Javascript is the Language use Design logic for Web </p>
-            </div>
-            <div className={styles.blogItem}>
-              <h3>How to learn Javascript in 2023?</h3>
-              <p>Javascript is the Language use Design logic for Web </p>
-            </div>
-            <div className={styles.blogItem}>
-              <h3>How to learn Javascript in 2023?</h3>
-              <p>Javascript is the Language use Design logic for Web </p>
-            </div>
-          </div>
         </main>
       </div>
     </>
